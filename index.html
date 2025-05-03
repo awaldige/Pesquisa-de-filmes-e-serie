@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pesquisa de Filmes e Séries</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pesquisa de Filmes e Séries</h1>
+  </header>
+
+  <main>
+    <form id="search-form" aria-labelledby="search-form">
+      <fieldset>
+        <legend>Busca</legend>
+        <label for="search-input">Digite o nome:</label>
+        <input type="text" id="search-input" name="search" placeholder="Ex: Matrix" required aria-label="Digite o nome do filme ou série" />
+        <button type="submit">Pesquisar</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tipo</legend>
+        <div class="radio-group">
+          <label><input type="radio" name="type" value="movie" checked /> Filme</label>
+          <label><input type="radio" name="type" value="series" /> Série</label>
+        </div>
+      </fieldset>
+      
+    </form>
+
+    <div id="results" aria-live="polite"></div>
+    <div id="movie-details" aria-live="polite"></div>
+    <div id="series-details" aria-live="polite"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
