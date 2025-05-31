@@ -13,21 +13,20 @@
 
   <main>
     <form id="search-form" aria-labelledby="search-form">
-      <fieldset>
+      <fieldset class="search-group">
         <legend>Busca</legend>
         <label for="search-input">Digite o nome:</label>
         <input type="text" id="search-input" name="search" placeholder="Ex: Matrix" required aria-label="Digite o nome do filme ou série" />
         <button type="submit">Pesquisar</button>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="filters-group">
         <legend>Tipo</legend>
         <div class="radio-group">
           <label><input type="radio" name="type" value="movie" checked /> Filme</label>
           <label><input type="radio" name="type" value="series" /> Série</label>
         </div>
       </fieldset>
-      
     </form>
 
     <div id="results" aria-live="polite"></div>
@@ -38,6 +37,12 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
 
 
 
