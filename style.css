@@ -31,7 +31,7 @@ form {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 form .input-group {
@@ -109,21 +109,7 @@ form button:active {
   transform: scale(1);
 }
 
-
-.filters-group label {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.95rem;
-  background-color: #eef2f7;
-  padding: 0.4rem 0.6rem;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.filters-group label:hover {
-  background-color: #e0e8f1;
-}.result-card {
+.result-card {
   display: flex;
   gap: 1rem;
   margin-bottom: 1.5rem;
@@ -150,7 +136,6 @@ form button:active {
   margin: 0.5rem 0;
 }
 
-
 #results > div {
   background-color: #fff;
   padding: 1.5rem;
@@ -161,6 +146,32 @@ form button:active {
 
 #results h3 {
   margin-top: 0;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+
+  form {
+    padding: 1.5rem;
+  }
+
+  .result-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .result-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .result-info {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -174,15 +185,20 @@ form button:active {
 
   form button {
     width: 100%;
+    align-self: stretch;
   }
 
   .filters-group {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .filters-group label {
     font-size: 0.9rem;
-    padding: 0.4rem 0.4rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
   }
 }
 
