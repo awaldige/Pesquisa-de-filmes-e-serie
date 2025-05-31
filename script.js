@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("search-input");
     const resultsDiv = document.getElementById("results");
 
-    const tmdbKey ="f524c260e714f2dbde8cb2edd6b6f749"; 
+    const tmdbKey = "f524c260e714f2dbde8cb2edd6b6f749";
     const language = "pt-BR";
 
     let genreMap = {};
@@ -74,10 +74,12 @@ document.addEventListener("DOMContentLoaded", () => {
             return `
                 <div class="result-card">
                     <img src="${poster}" alt="${title}">
-                    <h3>${title} (${year})</h3>
-                    <p><strong>Tipo:</strong> ${type === "movie" ? "Filme" : "Série"}</p>
-                    <p><strong>Gênero:</strong> ${genres}</p>
-                    <p><strong>Sinopse:</strong> ${overview}</p>
+                    <div class="result-info">
+                        <h3>${title} (${year})</h3>
+                        <p><strong>Tipo:</strong> ${type === "movie" ? "Filme" : "Série"}</p>
+                        <p><strong>Gênero:</strong> ${genres}</p>
+                        <p><strong>Sinopse:</strong> ${overview}</p>
+                    </div>
                 </div>
             `;
         }).join("");
