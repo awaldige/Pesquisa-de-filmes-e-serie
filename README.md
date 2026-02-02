@@ -1,41 +1,94 @@
-# 🎬 Pesquisa de Filmes e Séries
+🎬 Pesquisa de Filmes e Séries
 
-Aplicação web que permite pesquisar informações sobre filmes e séries em tempo real utilizando a [TMDb API](https://www.themoviedb.org/documentation/api). Desenvolvido com **HTML**, **CSS** e **JavaScript** puro.
+Aplicação web que permite pesquisar filmes e séries em tempo real utilizando a TMDb API (The Movie Database).
 
-## 🔍 Funcionalidades
+O projeto foi desenvolvido com HTML, CSS e JavaScript puro, focado em consumo de API externa, manipulação dinâmica de dados e experiência do usuário.
 
-- Pesquisa por título de filmes e séries
-- Exibição de pôster, título, ano, gênero e sinopse
-- Suporte ao idioma português (pt-BR)
-- Layout responsivo e acessível
+🔍 Funcionalidades
 
-## 🚀 Como utilizar
+🔎 Pesquisa por título de filmes e séries
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/awaldige/Pesquisa-de-filmes-e-serie.git
-   ```
-2. Navegue até o diretório e abra o arquivo `index.html` no navegador.
+🎞 Exibição de:
 
-## 🛠️ Tecnologias utilizadas
+Pôster
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- TMDb API
+Título
 
-## 📸 Captura de tela
+Ano de lançamento
 
-## 📌 Status do projeto
+Gêneros
 
-✅ Estrutura inicial concluída  
-🔄 Em desenvolvimento contínuo
+Sinopse
 
-## 📄 Licença
+🌎 Resultados em português (pt-BR)
 
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes# pesquisa-de-filmes-e-serie
+📱 Layout responsivo para desktop e mobile
 
-MIT License
+⚡ Resultados carregados dinamicamente
 
-Copyright (c) 2025 André Waldige
+🚀 Como Executar o Projeto
 
+Clone o repositório:
+
+git clone https://github.com/awaldige/Pesquisa-de-filmes-e-serie.git
+
+
+Entre na pasta do projeto:
+
+cd Pesquisa-de-filmes-e-serie
+
+
+Abra o arquivo index.html no navegador.
+
+Não é necessário backend ou servidor.
+
+🛠️ Tecnologias Utilizadas
+
+HTML5
+
+CSS3
+
+JavaScript (ES6+)
+
+TMDb API
+
+🌐 Acesse o Projeto Online
+
+🔗 https://pesquisa-de-filmes-e-serie.vercel.app/
+
+📸 Captura de Tela
+
+![IMG_1324](https://github.com/user-attachments/assets/e61c40f7-b6dc-415a-9137-73e0a3ee77fe)
+![IMG_1325](https://github.com/user-attachments/assets/598fc0b5-a8c0-45bb-83a6-59461ba45d02)
+![IMG_1326](https://github.com/user-attachments/assets/89095396-3132-48bf-ab6f-f982e9785023)
+![IMG_1327](https://github.com/user-attachments/assets/149eeab1-ee08-4e9d-b8b6-1e307e9d7d7c)
+![IMG_1328](https://github.com/user-attachments/assets/752babbe-5f6a-4c03-84aa-b59489f04535)
+
+
+
+📌 Status do Projeto
+
+✅ Funcionalidade principal concluída
+🔄 Projeto em evolução contínua
+
+🔮 Melhorias Futuras
+
+Possíveis melhorias:
+
+Paginação de resultados
+
+Filtro por gênero
+
+Lista de favoritos
+
+Histórico de pesquisas
+
+Modo escuro
+
+Modal com detalhes do filme
+
+👨‍💻 Autor
+
+Desenvolvido por André Waldige
+
+🔗 GitHub: https://github.com/
