@@ -58,11 +58,12 @@ TMDb API
 
 📸 Captura de Tela
 
-![IMG_1324](https://github.com/user-attachments/assets/e61c40f7-b6dc-415a-9137-73e0a3ee77fe)
-![IMG_1325](https://github.com/user-attachments/assets/598fc0b5-a8c0-45bb-83a6-59461ba45d02)
-![IMG_1326](https://github.com/user-attachments/assets/89095396-3132-48bf-ab6f-f982e9785023)
-![IMG_1327](https://github.com/user-attachments/assets/149eeab1-ee08-4e9d-b8b6-1e307e9d7d7c)
-![IMG_1328](https://github.com/user-attachments/assets/752babbe-5f6a-4c03-84aa-b59489f04535)
+![Captura de tela 2026-04-03 184411](https://github.com/user-attachments/assets/7168f7a9-c7f3-4fe9-84a7-a77acc205448)
+![Captura de tela 2026-04-03 184326](https://github.com/user-attachments/assets/ef5f32b1-6628-482a-8588-63d5c3cef38d)
+![Captura de tela 2026-04-03 184445](https://github.com/user-attachments/assets/6b03d2b6-5381-4b3c-8071-b2cbf2b1d355)
+![Captura de tela 2026-04-03 184221](https://github.com/user-attachments/assets/ed4910f6-5e9f-4510-a062-d927e059b1d0)
+
+
 
 
 
