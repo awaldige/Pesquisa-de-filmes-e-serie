@@ -77,7 +77,9 @@ Ou de forma ágil via terminal com Node.js instalado:
 
 Bash
 npx serve .
+
 🔮 Evoluções Futuras
+
 [ ] Implementação de paginação dinâmica dos resultados do TMDb.
 
 [ ] Filtro avançado secundário por ano de lançamento ou notas de avaliação.
