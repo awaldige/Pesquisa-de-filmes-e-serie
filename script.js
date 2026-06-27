@@ -77,9 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // Evento de Clique para Limpar os Resultados e o Formulário
-    limparBtn.addEventListener("click", () => {
-        form.reset(); // Reseta o input de texto e os seletores radio nativamente
+    // Evento de Clique para Limpar os Resultados e o Formulário (Corrigido)
+    limparBtn.addEventListener("click", (event) => {
+        event.preventDefault(); // Evita que a validação do 'required' bloqueie a limpeza
+        form.reset();           // Reseta o input de texto e os seletores radio nativamente
         resultsDiv.innerHTML = '<p class="placeholder-text">Digite o nome de uma obra e escolha o filtro para iniciar a busca.</p>';
     });
 
