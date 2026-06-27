@@ -3,39 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pesquisa de Filmes e Séries</title>
+  <title>CineBusca — Pesquisa de Filmes e Séries</title>
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🎬</text></svg>">
 
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Pesquisa de Filmes e Séries</h1>
-  </header>
 
-  <main>
-    <form id="search-form" aria-labelledby="search-form">
-      <fieldset class="search-group">
-        <legend>Busca</legend>
-        <label for="search-input">Digite o nome:</label>
-        <input type="text" id="search-input" name="search" placeholder="Ex: Matrix" required aria-label="Digite o nome do filme ou série" />
-        <button type="submit">Pesquisar</button>
-      </fieldset>
+  <div class="app-container">
+    
+    <header class="main-header">
+      <div class="logo-icon">🎬</div>
+      <h1>CineBusca</h1>
+      <p class="subtitle">Encontre seus filmes e séries favoritos em segundos</p>
+    </header>
 
-      <fieldset class="filters-group">
-        <legend>Tipo</legend>
-        <div class="radio-group">
-          <label><input type="radio" name="type" value="movie" checked /> Filme</label>
-          <label><input type="radio" name="type" value="series" /> Série</label>
+    <main>
+      <section class="search-panel">
+        <form id="search-form">
+          
+          <div class="search-row">
+            <div class="input-group">
+              <label for="search-input">O que você procura?</label>
+              <div class="search-input-wrapper">
+                <input 
+                  type="text" 
+                  id="search-input" 
+                  name="search" 
+                  placeholder="Ex: Matrix, Breaking Bad..." 
+                  required 
+                  aria-label="Digite o nome do filme ou série" 
+                />
+              </div>
+            </div>
+            
+            <button type="submit" class="btn-primary">Pesquisar</button>
+          </div>
+
+          <fieldset class="filters-group">
+            <legend>Filtrar por tipo</legend>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" name="type" value="movie" checked />
+                <span class="custom-radio"></span>
+                Filmes
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="type" value="series" />
+                <span class="custom-radio"></span>
+                Séries
+              </label>
+            </div>
+          </fieldset>
+
+        </form>
+      </section>
+
+      <section class="results-panel">
+        <div id="results" aria-live="polite">
+          <p class="placeholder-text">Digite o nome de uma obra e escolha o filtro para iniciar a busca.</p>
         </div>
-      </fieldset>
-    </form>
+      </section>
+    </main>
 
-    <div id="results" aria-live="polite"></div>
-    <div id="movie-details" aria-live="polite"></div>
-    <div id="series-details" aria-live="polite"></div>
-  </main>
+  </div>
 
   <script src="script.js"></script>
 </body>
