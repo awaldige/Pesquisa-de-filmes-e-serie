@@ -24,22 +24,25 @@
         <form id="search-form">
           
           <div class="search-row">
-            <div class="input-group">
-              <label for="search-input">O que você procura?</label>
-              <div class="search-input-wrapper">
-                <input 
-                  type="text" 
-                  id="search-input" 
-                  name="search" 
-                  placeholder="Ex: Matrix, Breaking Bad..." 
-                  required 
-                  aria-label="Digite o nome do filme ou série" 
-                />
-              </div>
-            </div>
-            
-            <button type="submit" class="btn-primary">Pesquisar</button>
-          </div>
+  <div class="input-group">
+    <label for="search-input">O que você procura?</label>
+    <div class="search-input-wrapper">
+      <input 
+        type="text" 
+        id="search-input" 
+        name="search" 
+        placeholder="Ex: Matrix, Breaking Bad..." 
+        required 
+        aria-label="Digite o nome do filme ou série" 
+      />
+    </div>
+  </div>
+  
+  <div class="action-buttons" style="display: flex; gap: 12px; flex-shrink: 0;">
+    <button type="button" id="limparBtn" class="btn-secondary">Limpar</button>
+    <button type="submit" class="btn-primary">Pesquisar</button>
+  </div>
+</div>
 
           <fieldset class="filters-group">
             <legend>Filtrar por tipo</legend>
